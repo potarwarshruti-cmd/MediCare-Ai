@@ -260,6 +260,15 @@ class ERPConfigInput(BaseModel):
 
 # --- Endpoints ---
 
+@app.get("/")
+def root():
+    return {
+        "message": "MediCare AI Backend API Server is active",
+        "status": "online",
+        "documentation": "/docs",
+        "health": "/api/health"
+    }
+
 @app.get("/api/health")
 def health_check():
     return {"status": "healthy", "app": "MediCare AI", "timestamp": datetime.datetime.utcnow().isoformat()}

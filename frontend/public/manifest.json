@@ -1,0 +1,17 @@
+{
+  "short_name": "MediCare Amb",
+  "name": "MediCare AI — Ambulance Responder Mobile PWA",
+  "description": "Real-time emergency ambulance dispatch, AI hospital ranking, bed availability & turn-by-turn navigation",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512 192x192 64x64 32x32"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#f8fafc",
+  "theme_color": "#0891b2",
+  "display": "standalone",
+  "orientation": "portrait"
+}
